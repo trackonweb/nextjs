@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slick-slide > div {
+    margin: 0 10px;
+  }
+
+  .my-custom-hover-effect:hover {
+    border-bottom-width: 4px;
+    border-bottom-color: #0588b0;
+  }
+
+
+  .custom-bounce {
+    animation: bounce 2s ease infinite; /* Adjust the duration (2s in this case) for a slower animation */
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(-2%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+  
+  
+ 
+  .btn {
+    @apply text-[#03e9f4] uppercase tracking-[4px] text-[16px] border-2 border-[#03e9f4] px-[22px] py-[7px] rounded
+  }
+
+  .btn:hover {
+    @apply text-white bg-[#03e9f4] border-2 border-transparent boxshadow
+  }
+
+  .boxshadow {
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 100px 
+  }
+
+  .btn1 {
+    @apply  bg-[#03e9f4] text-white capitalize border-2 border-transparent  text-[16px] font-medium tracking-[2px]  px-[18px] py-[12px] 
+  }
+
+  .btn1:hover {
+    @apply  text-[#03e9f4] bg-white border-2 border-[#03e9f4] rounded boxshadow
+  }
+
+  .card-title {
+    color: #262626;
+    font-size: 1.5em;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #452c2c;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+  }
+  
+  .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background: linear-gradient(135deg, #6293c8, #384c6c);
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    position: relative;
+    max-width: 500px;
+    height: 100%;
+    max-height: 360px;
+    background-color: #f2f8f9;
+    border-radius: 10px;
+    padding: 2em 1.2em;
+    
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .card:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #364a60, #384c6c);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .card:hover:before {
+    transform: scale(28);
+  }
+  
+  .card:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .card:hover .card-title {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+  
+
+  
+  
