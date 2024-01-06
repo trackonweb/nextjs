@@ -45,7 +45,6 @@ export default function Page() {
       <Process/>
        <Better/>
 
-      <Director />
 
       {/* <Partnership /> */}
 
