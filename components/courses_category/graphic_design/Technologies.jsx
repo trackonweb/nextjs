@@ -1,0 +1,72 @@
+import Image from 'next/image'
+import React from 'react'
+
+const technologiesList = [
+  {
+    id: 1,
+    Technology: 'Photoshop',
+    img: '/download (7).png',
+  },
+  {
+    id: 2,
+    Technology: 'Coreldraw',
+    img: '/download (1).jpg',
+  },
+  {
+    id: 3,
+    Technology: 'illustrator',
+    img: '/download (8).png',
+  },
+  {
+    id: 4,
+    Technology: 'Figma',
+    img: '/download (9).png',
+  },
+  {
+    id: 5,
+    Technology: 'Canva',
+    img: '/download (2).jpg',
+  },
+  {
+    id: 6,
+    Technology: 'lightroom',
+    img: '/lightroom.png',
+  },
+
+ 
+ 
+];
+
+const Technologies = () => {
+  return (
+    <div className='bg-[#0588b0] text-black '>
+     <div className='container mx-auto'>
+        
+     <div
+          className={`flex  flex-col gap-3 justify-center items-center  pt-10 xl:mx-20 lg:mx-10 mx-4`}
+        >
+          <h3 className="text-white text-center lg:text-[34px] text-[28px] font-[600] tracking-wide">
+          Get In-Depth Knowledge of Advanced Graphic Designing Tools and Software<span className=""></span>
+          </h3>
+          <span className='text-[16px] lg:text-[20px] font-normal tracking-wide text-[#f3f3f3] text-center'>Get ready to work on Advanced Graphic designing tools - Adobe Photoshop, Adobe InDesign, Illustrator, Coral Draw, Lightroom, Canva, Figma and more, under our professional trainer's guidance </span>
+         
+        </div>
+        <div  className={`grid gap-5 grid-cols-2 md:grid-cols-4 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6  justify-items-center  xl:mx-20 lg:mx-10 mx-4 pt-20 pb-20 `}>
+           {
+            technologiesList.map((item,index)=>{
+                return  <div key={index} className='bg-white p-[25px] w-[170px] h-[170px] shadow flex flex-col justify-center items-center gap-3 rounded-md'>
+                <div>
+                    <Image src={item.img} width={70} height={70} alt='' className='object-contain'/>
+                </div>
+                <span className='text-black capitalize text-center font-medium'>{item.Technology}</span>
+            </div>
+            })
+           }
+           
+        </div>
+     </div>
+    </div>
+  )
+}
+
+export default Technologies
