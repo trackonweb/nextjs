@@ -6,7 +6,7 @@ import { IoPerson } from "react-icons/io5";
 import Useful from "../../public/useful.png";
 import JavaScript from "../../public/javascriptmistakes.png";
 import Host2 from "../../public/host2.png";
-import Domains from "../../public/Domains.png";
+import Domains from "../../public/domains.png";
 import DesignBlog from "../../public/designblog.png";
 import WorkIdea from "../../public/workidea.png";
 
