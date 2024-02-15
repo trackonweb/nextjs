@@ -35,7 +35,7 @@ export default function Contact() {
       return;
     }
   
-    emailjs.sendForm('service_lzx4iso', 'template_2lmnase', form.current, 'asKGLihLRDLk9f9Iw')
+    emailjs.sendForm('service_s0ohtnd', 'template_s4qoy77', form.current, 'tNz_qvS5ZS0bLgvLa')
       .then((result) => {
         toast.success("Message sent successfully!");
   

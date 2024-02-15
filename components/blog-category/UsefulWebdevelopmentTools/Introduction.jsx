@@ -3,10 +3,10 @@ import React from 'react'
 const Introduction = () => {
   return (
     <div className="flex flex-col justify-start items-start  pt-5 pb-5 p-4">
-            <span className="lg:text-[20px] text-[16px] font-bold tracking-wide">
+            <span className=" text-[16px] font-[600] tracking-wide">
               1. Introduction
             </span>
-            <span className=" lg:text-[16px] text-[14px]  pt-3">
+            <span className="  text-[15px]  pt-3 tracking-wide leading-6">
               Enhance productivity for today's tech professionals and companies
               with the "Best Remote Location Project Work Idea." This advanced
               web app caters to corporate and IT professionals, offering optimal

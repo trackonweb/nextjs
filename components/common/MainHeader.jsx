@@ -74,7 +74,7 @@ const MainHeader = () => {
                   <div className="absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[250px] transform">
                     <div className="relative top-8 p-6 bg-white  border-t-4 border-cyan-300 w-full">
                       {/* <div className="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[12rem] duration-500 ease-in-out rounded-sm"></div> */}
-                      <div className="relative z-10">
+                      <div className="relative z-10 ">
                         <div className="">
                           <Link
                             href={`/explore_courses/webdevelopment`}

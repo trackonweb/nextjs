@@ -11,6 +11,7 @@ import CounterUp from '@/components/home/CounterUp';
 import Faq from '@/components/home/Faq';
 import GetInTouch from '@/components/common/GetInTouch';
 import Partner from '@/components/home/Partner';
+import Blogs from '@/components/home/Blogs';
 
 export default function Home() {
   const [showContact, setShowContact] = useState(false);
@@ -59,6 +60,7 @@ export default function Home() {
       <CounterUp />
       
       <Faq />
+      <Blogs/>
     </div>
   );
 }

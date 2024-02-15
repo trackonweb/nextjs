@@ -101,8 +101,8 @@ const WebsiteHosting = () => {
               BannerImg={Host2}
               alt={"platforms for free website hosting "}
             />
-            <div className="flex justify-between items-center border-2 border-[rgba(124,91,243,0.08)] p-4">
-             <div className="flex justify-start items-center gap-3">
+           <div className="flex justify-between gap-2 items-center border-2 border-[rgba(124,91,243,0.08)] p-4">
+             <div className="flex justify-start flex-col md:flex-row md:items-center items-start gap-3">
               <span className="text-[15px] tracking-wide ">Updated on 22nd Jul, 23</span>
               <span className="flex justify-center items-center gap-2"><FaRegEye/>9.1K Views</span>
              </div>

@@ -4,7 +4,7 @@ const Conclusion = () => {
   return (
     <div>
       <div className="flex flex-col justify-start items-start  pt-5 pb-5  p-4">
-            <span className="lg:text-[20px] text-[16px] font-bold tracking-wide">
+            <span className=" text-[16px] font-[600] tracking-wide">
            10.  Conclusion
             </span>
             <span className=" lg:text-[16px] text-[14px]  pt-3">

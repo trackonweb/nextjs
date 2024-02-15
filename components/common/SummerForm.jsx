@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
 import { FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
                                  
 const SummerForm = ({ handleCloseForm }) => {
@@ -31,7 +32,7 @@ const SummerForm = ({ handleCloseForm }) => {
       }
     
       emailjs
-        .sendForm('service_tadzdln', 'template_3ihbvja', form.current, 'asKGLihLRDLk9f9Iw')
+      .sendForm('service_y8x9j7h', 'template_0h1esq5', form.current, 'tNz_qvS5ZS0bLgvLa')
         .then(
           (result) => {
             toast.success("Message sent successfully!");
@@ -47,39 +48,39 @@ const SummerForm = ({ handleCloseForm }) => {
         );
     };
   return (
-    <div className={` bg-red-100  min-w-full  fixed  z-50    min-h-full flex justify-center items-center`}>
+    <div className={` bg-[rgba(24,24,24,0.648)]  min-w-full  fixed  z-50    min-h-full flex justify-center items-center`}>
       <div className="container mx-auto">
         <div className="flex justify-center items-center ">
-          <div className="relative bg-white rounded-xl shadow-lg lg:w-[800px] w-full flex flex-col lg:flex-row xl:mx-20 lg:mx-10 mx-4">
+          <div className="relative bg-white rounded-xl shadow-lg lg:w-[800px] w-full flex flex-col md:flex-row xl:mx-20 lg:mx-10 mx-4">
             <div
-              className={`   lg:w-1/2 w-full bg-[#0588b0]  `}
+              className={`   md:w-1/2 w-full bg-[#0588b0]  `}
             >
               <div className=" h-full">
-                <div className="p-4  lg:flex flex-col justify-center lg:items-start items-center  gap-5 h-full">
-                <div className="hidden lg:flex justify-start items-start">
+                <div className="p-4  lg:flex flex-col justify-center  items-center  gap-5 h-full">
+                <div className="hidden md:flex justify-center items-center">
                 <Image src={'/logo.png'} width={70} height={70} alt='logo' className='object-contain'/>
             </div>
                   
                   <div>
                   <div className="pb-5">
-                    <h2 className="text-white font-bold lg:text-[32px] text-[24px] text-center">
+                    <h2 className="text-white font-bold tracking-wide text-[24px] text-center md:mt-5 lg:mt-0">
                     Welcome in Trackonweb
                     </h2>
                     <p className="text-white lg:text-[16px] text-[14px] py-4">We are starting Summer Boot Camp 2024 from 1st April to 30th June.</p>
                     <p className="text-white lg:text-[16px] text-[14px]">Last date for registration is 31st March.</p>
                   </div>
-                    <div className="flex flex-col   justify-center items-start gap-5 ">
+                  <div className="flex flex-col   justify-center items-start gap-3 ">
                       <div className="inline-flex space-x-1 items-center">
                         <FaWhatsapp className="text-xl text-white" />
-                        <span className="font-medium  text-white tracking-wider">
-                          +91 8233330466
-                        </span>
+                        <Link href="tel:+918233330466" className="font-normal text-white tracking-wider">
+  +91 8233330466
+</Link>
                       </div>
                       <div className="inline-flex space-x-1 items-center">
                         <FiMail className="text-xl text-white" />
-                        <span className="font-medium text-white tracking-wider">
-                          trackonwebIT@gmail.com
-                        </span>
+                        <Link href="mailto:trackonwebIT@gmail.com" className="font-normal text-white tracking-wide">
+  trackonwebIT@gmail.com
+</Link>
                       </div>
                     </div>
                   </div>
@@ -87,10 +88,10 @@ const SummerForm = ({ handleCloseForm }) => {
               </div>
             </div>
 
-            <div className="lg:w-1/2 w-full  ">
+            <div className="md:w-1/2 w-full  ">
               <div className="  lg:p-8 p-4 text-gray-600 ">
                 <div className="flex justify-center items-center mb-5">
-                  <h4 className=" lg:text-[26px] text-[20px]  font-bold capitalize ">
+                  <h4 className="  text-[20px]  font-bold capitalize ">
                    Register for Summer Boot Camp 2024
                   </h4>
                 </div>
@@ -99,7 +100,7 @@ const SummerForm = ({ handleCloseForm }) => {
               <div>
                 <input
                   type='text'
-                  name='from_name'
+                  name='user_name'
                   placeholder='Your name'
                   value={name}
                   onChange={(e) => setName(e.target.value)}

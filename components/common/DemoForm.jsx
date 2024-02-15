@@ -32,7 +32,7 @@ const DemoForm = () => {
       }
     
       emailjs
-        .sendForm('service_tadzdln', 'template_3ihbvja', form.current, 'asKGLihLRDLk9f9Iw')
+        .sendForm('service_y8x9j7h', 'template_0h1esq5', form.current, 'tNz_qvS5ZS0bLgvLa')
         .then(
           (result) => {
             toast.success("Message sent successfully!");
@@ -59,7 +59,7 @@ const DemoForm = () => {
               <div>
                 <input
                   type='text'
-                  name='from_name'
+                  name='user_name'
                   placeholder='Your name'
                   value={name}
                   onChange={(e) => setName(e.target.value)}

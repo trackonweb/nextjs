@@ -4,13 +4,13 @@ const Neglecting = () => {
   return (
     <div>
        <div className="flex flex-col justify-start items-start   pb-5 p-4">
-            <span className="lg:text-[20px] text-[16px] font-bold tracking-wide border-b-2 border-b-black pb-2">
+            <span className=" text-[16px] font-[600] tracking-wide border-b-2 border-b-black pb-2">
               3. Neglecting Error Handling :-
             </span>
-            <span className=" lg:text-[16px] text-[14px]  pt-3">
+            <span className="  text-[14px] leading-6 pt-3">
             Neglecting error handling can lead to unexpected issues and make debugging more challenging. Always implement proper error handling techniques using try, catch, and finally blocks:
             </span>
-            <span className=" lg:text-[16px] text-[14px]  pt-3">
+            <span className="  text-[14px]  pt-3">
             javascript code: 
             </span>
             <div className=" flex flex-col gap-3 w-full lg:text-[20px] tracking-wide text-center text-white text-[14px] font-medium  mt-3 px-7 py-3 bg-[#0588b0]">
@@ -22,7 +22,7 @@ const Neglecting = () => {
               <span>{`// Code to execute regardless of an error`}</span>
             </div>
             
-            <span className='lg:text-[16px] text-[14px] pt-3'>This ensures a more resilient and reliable codebase.</span>
+            <span className=' text-[14px] pt-3'>This ensures a more resilient and reliable codebase.</span>
             </div>
     </div>
   )
