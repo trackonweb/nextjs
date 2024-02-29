@@ -16,6 +16,7 @@ const GetInTouch = ({ handleCloseContact }) => {
    
     const [phone, setPhone] = useState('');
     const [course, setCourse] = useState('');
+    const [loading, setLoading] = useState(false);
   
     const form = useRef();
   
@@ -30,7 +31,8 @@ const GetInTouch = ({ handleCloseContact }) => {
         toast.error("Please enter a valid 10-digit phone number.");
         return;
       }
-    
+      setLoading(true);
+
       emailjs
         .sendForm('service_tadzdln', 'template_3ihbvja', form.current, 'asKGLihLRDLk9f9Iw')
         .then(
@@ -45,7 +47,10 @@ const GetInTouch = ({ handleCloseContact }) => {
           (error) => {
             toast.error("Error sending message. Please try again.");
           }
-        );
+        )
+        .finally(() => {
+          setLoading(false);
+        });
     };
   return (
     <div className={` bg-[rgba(24,24,24,0.648)]  min-w-full absolute  z-50    min-h-full flex justify-center items-center`}>
@@ -141,11 +146,12 @@ const GetInTouch = ({ handleCloseContact }) => {
                 </select>
               </div>
               <button
-                className="relative py-2 px-8 mt-10 text-white text-base font-bold rounded-[50px] overflow-hidden bg-cyan-600 transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-cyan-500 before:to-cyan-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-[50px] hover:before:left-0 capitalize"
-                
-              >
-                Submit
-              </button>
+            type='submit'
+            className='bg-teal-400 text-white font-[600] rounded-lg px-6 py-2 tracking-wide uppercase text-sm'
+            disabled={loading} 
+          >
+            {loading ? 'Loading...' : 'Submit'}
+          </button>
             
             </form>
               </div>

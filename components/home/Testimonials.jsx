@@ -13,7 +13,7 @@ const Testimonials = () => {
 </span>
         </div>
         <div className={`grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center xl:mx-20 lg:mx-10 mx-4`}>
-        <div className="flex flex-col  justify-center  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)]  shadow-md"
+        <div className="flex flex-col  justify-center  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] rounded-lg  shadow-md"
                     >
             <div className='flex justify-start items-start gap-5'>
                 <div className='flex justify-center  items-center '>
@@ -41,7 +41,7 @@ const Testimonials = () => {
            
        
           </div>
-          <div className="flex flex-col  justify-start  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)]  shadow-md"
+          <div className="flex flex-col  justify-start  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] rounded-lg  shadow-md"
                     >
             <div className='flex justify-start items-start gap-5'>
                 <div className='flex justify-center  items-center '>
@@ -69,7 +69,7 @@ const Testimonials = () => {
            
        
           </div>
-          <div className="flex flex-col  justify-start  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)]  shadow-md"
+          <div className="flex flex-col  justify-start  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] rounded-lg  shadow-md"
                     >
             <div className='flex justify-start items-start gap-5'>
                 <div className='flex justify-center  items-center '>

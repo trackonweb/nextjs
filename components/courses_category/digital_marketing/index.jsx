@@ -24,11 +24,11 @@ const HeroSection = () => {
                 href={'/explore_courses'}
                 className=' lg:text-[16px] text-[12px]'
               >
-                explore_courses
+                explore-courses
               </Link>
               <span className=' font-bold'>/</span>
               <span className='text-[#0588b0] lg:text-[16px] text-[12px]'>
-                digital_marketing
+                digital-marketing
               </span>
             </div>
             <span className=' lg:text-[27px] text-[20px] font-[600] tracking-wide py-6 capitalize'>

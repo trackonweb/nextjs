@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
+import { FaAngleDown, FaAngleUp  } from "react-icons/fa";
 
 const faqList = [
   {
@@ -118,7 +119,7 @@ const Faq = () => {
   return (
     <div className=' bg-slate-100 '>
       <div className='container mx-auto '>
-        <div className='lg:mx-10 xl:mx-20 mx-4  flex flex-col justify-center items-center gap-10 pb-20'>
+        <div className='  mx-4 flex flex-col justify-center items-center gap-10 pb-20'>
           <div className=' w-full pt-10'>
           <h3 className='text-[#2f327d]  lg:text-[34px] text-[22px] text-center font-[600] tracking-wide capitalize'>
           Project FAQ’s
@@ -140,7 +141,7 @@ const Faq = () => {
                     onClick={handleChange(item.id)}
                   >
                     <h2 className=' text-[16px] font-[600] tracking-wide '>{item.question}</h2>
-                    <span className='text-[16px] font-bold'>+</span>
+                    <span className='text-[16px] font-bold'><FaAngleDown/></span>
                   </div>
                 </div>
                 {expanded === item.id && (

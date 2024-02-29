@@ -94,7 +94,7 @@ const ClientReviews = () => {
                   key={index}
                   className=" flex  justify-center  items-center    cursor-pointer gap-6   "
                 >
-                 <div className="h-[350px] flex flex-col justify-start items-start  border  p-[25px] shadow-md shadow-transparent overflow-hidden">
+                 <div className="h-[350px] flex flex-col justify-start items-start  border  p-[25px] shadow-md shadow-transparent overflow-hidden rounded-md">
                  <div className="flex flex-col justify-start items-start gap-3">
                     <FaQuoteLeft className="text-[30px]  text-yellow-400" />
                     <span className="lg:text-[18px] text-[16px] text-white tracking-wide  leading-relaxed">

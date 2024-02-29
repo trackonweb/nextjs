@@ -12,6 +12,7 @@ const DemoForm = () => {
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
     const [course, setCourse] = useState('');
+    const [loading, setLoading] = useState(false);
   
     const form = useRef();
   
@@ -30,6 +31,7 @@ const DemoForm = () => {
         toast.error("Please enter a valid 10-digit phone number.");
         return;
       }
+      setLoading(true);
     
       emailjs
         .sendForm('service_y8x9j7h', 'template_0h1esq5', form.current, 'tNz_qvS5ZS0bLgvLa')
@@ -41,11 +43,16 @@ const DemoForm = () => {
             setEmail('');
             setPhone('');
             setCourse('');
+
+            
           },
           (error) => {
             toast.error("Error sending message. Please try again.");
           }
-        );
+        )
+        .finally(() => {
+          setLoading(false);
+        });
     };
     
   return (
@@ -109,11 +116,12 @@ const DemoForm = () => {
                 </select>
               </div>
               <button
-                type='submit'
-                className='bg-teal-400 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm'
-              >
-                Submit
-              </button>
+            type='submit'
+            className='bg-teal-400 text-white font-[600] rounded-lg px-6 py-2 tracking-wide uppercase text-sm'
+            disabled={loading} 
+          >
+            {loading ? 'Loading...' : 'Submit'}
+          </button>
             </form>
            
           </div>

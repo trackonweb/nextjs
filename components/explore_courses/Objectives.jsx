@@ -16,7 +16,7 @@ function Objectives() {
          
         </div>
         <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-between items-start lg:gap-10 gap-16 xl:px-20 lg:px-10 px-4 py-16">
-          <div className="bg-white relative flex-1 py-16 px-[40px] shadow group">
+          <div className="bg-white relative flex-1 py-16 px-[40px] shadow group rounded-md">
             <div className="flex flex-col justify-center items-center gap-4 ">
               <span className="text-black capitalize font-semibold text-[20px]">
               Learner focused
@@ -33,7 +33,7 @@ function Objectives() {
             <FaGraduationCap className="text-[34px]  text-white rotate-0" />
             </div>
           </div>
-          <div className="bg-white relative flex-1 py-16 px-[40px] shadow group">
+          <div className="bg-white relative flex-1 py-16 px-[40px] shadow group rounded-md">
   <div className="flex flex-col justify-center items-center gap-4 ">
     <span className="text-black capitalize font-semibold text-[20px]">
     Cost-Effective Learning
@@ -52,7 +52,7 @@ function Objectives() {
   </div>
 </div>
 
-          <div className="bg-white relative flex-1 py-16 px-[40px] shadow group">
+          <div className="bg-white relative flex-1 py-16 px-[40px] shadow group rounded-md">
             <div className="flex flex-col justify-center items-center gap-4 ">
               <span className="text-black capitalize font-semibold text-[20px]">
               Lifetime Access

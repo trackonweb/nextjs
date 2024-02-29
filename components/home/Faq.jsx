@@ -1,6 +1,7 @@
 "use client"
 import Link from 'next/link';
 import React, { useState } from 'react';
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 const faqList = [
   {
@@ -80,14 +81,14 @@ const Faq = () => {
                     onClick={handleChange(item.id)}
                   >
                     <h2 className=' text-[16px] font-semibold tracking-wide'>{item.question}</h2>
-                    <span className='text-[16px] font-bold'>+</span>
+                    <span className='text-[16px] font-bold'><MdKeyboardArrowDown/></span>
                   </div>
                 </div>
                 {expanded === item.id && (
                   <div className='py-3 px-4'>
-                    <p className='lg:text-base text-[14px] font-normal '>{item.answer}</p>
+                    <p className=' text-[14px] font-normal '>{item.answer}</p>
                     <div className='flex flex-col lg:flex-row justify-start items-start gap-2'>
-                      <span className='lg:text-[16px] text-[14px] font-normal'>{item.p} </span>
+                      <span className=' text-[14px] font-normal'>{item.p} </span>
                       <a href={item.url} target="_blank" rel="noopener noreferrer" className='text-blue-600 lg:text-[16px] text-[12px] font-normal'>
                         {item.url}
                       </a>
@@ -96,8 +97,8 @@ const Faq = () => {
                       <span className='lg:text-[16px]  text-[14px] font-normal'>{item.li1}<a href={item.url1} rel="noopener noreferrer" className='text-blue-600'>
                         {item.url1}
                       </a></span>
-                      <span className='lg:text-[16px] text-[14px] font-normal'>{item.li2}</span>
-                      <span className='lg:text-[16px] text-[14px] font-normal'>{item.li3}</span>
+                      <span className=' text-[14px] font-normal'>{item.li2}</span>
+                      <span className=' text-[14px] font-normal'>{item.li3}</span>
                     </div>
                   </div>
                 )}

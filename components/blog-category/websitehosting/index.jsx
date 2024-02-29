@@ -24,7 +24,7 @@ import Vercels from "../../../public/vercel.png";
 import Host from "../../../public/host.png";
 import Host2 from "../../../public/host2.png";
 import Gae from "../../../public/gae.png";
-import Ama from "../../../public/ama.png";
+import Ama from "../../../public/Ama.png";
 import Mic from "../../../public/mic.png";
 import Lab from "../../../public/lab.png";
 import Word from "../../../public/word.png";

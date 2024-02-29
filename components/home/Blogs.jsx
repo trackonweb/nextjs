@@ -6,7 +6,7 @@ import { IoPerson } from "react-icons/io5";
 import Useful from "../../public/useful.png";
 import JavaScript from "../../public/javascriptmistakes.png";
 import Host2 from "../../public/host2.png";
-import Domains from "../../public/domains.png";
+import Domains from "../../public/Domains.png";
 import DesignBlog from "../../public/designblog.png";
 import WorkIdea from "../../public/workidea.png";
 
@@ -20,7 +20,7 @@ const Blogs = () => {
 </span>
         </div>
         <div className={`grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center xl:mx-20 lg:mx-10 mx-4`}>
-        <Link href={'/blog/project-work-idea'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer"
+        <Link href={'/blog/project-work-idea'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
                     >
             <div className='flex justify-center  items-center'>
             <Image src={WorkIdea}  alt='Remote Location Project Work Idea' className='object-contain ' />
@@ -49,7 +49,7 @@ const Blogs = () => {
             <Link href={'/blog/project-work-idea'} className='px-5 font-medium tracking-wide hover:text-[#0588b0] mt-auto'>{`Read More > `}</Link>
           </Link>
 
-          <Link href={'/blog/web-development-tools'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer"
+          <Link href={'/blog/web-development-tools'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
                     >
             <div className='flex justify-center  items-center'>
               <Image src={Useful}  alt='Useful Tools For Web Development' className='object-contain' />
@@ -69,7 +69,7 @@ const Blogs = () => {
             <Link href={'/blog/web-development-tools'} className='px-5 font-medium  tracking-wide hover:text-[#0588b0] mt-auto'>{`Read More > `}</Link>
           </Link>
 
-          <Link href={'/blog/javascript-mistakes-and-solutions'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer"
+          <Link href={'/blog/javascript-mistakes-and-solutions'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
                     >
             <div className='flex justify-center  items-center'>
               <Image src={JavaScript}  alt='Common Mistakes to Avoid in JavaScript' className='object-contain' />
@@ -89,7 +89,7 @@ const Blogs = () => {
             <Link href={'/blog/javascript-mistakes-and-solutions'} className='px-5 font-medium  tracking-wide hover:text-[#0588b0] mt-auto'>{`Read More > `}</Link>
           </Link>
 
-          <Link href={'/blog/free-website-hosting'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer"
+          <Link href={'/blog/free-website-hosting'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
                     >
             <div className='flex justify-center  items-center'>
               <Image src={Host2}  alt='best platforms for free website hosting ' className='object-contain' />

@@ -16,6 +16,7 @@ const SummerForm = ({ handleCloseForm }) => {
    
     const [phone, setPhone] = useState('');
     const [course, setCourse] = useState('');
+    const [loading, setLoading] = useState(false);
   
     const form = useRef();
   
@@ -30,6 +31,8 @@ const SummerForm = ({ handleCloseForm }) => {
         toast.error("Please enter a valid 10-digit phone number.");
         return;
       }
+
+      setLoading(true);
     
       emailjs
       .sendForm('service_y8x9j7h', 'template_0h1esq5', form.current, 'tNz_qvS5ZS0bLgvLa')
@@ -45,7 +48,10 @@ const SummerForm = ({ handleCloseForm }) => {
           (error) => {
             toast.error("Error sending message. Please try again.");
           }
-        );
+        )
+        .finally(() => {
+          setLoading(false);
+        });
     };
   return (
     <div className={` bg-[rgba(24,24,24,0.648)]  min-w-full  fixed  z-50    min-h-full flex justify-center items-center`}>

@@ -74,42 +74,42 @@ const MobileNav = ({ onLinkClick }) => {
               aria-labelledby="coursesDropdown"
             >
               <Link
-                href={`/explore_courses/webdevelopment`}
+                href={`/explore-courses/web-development`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
                 Web Development
               </Link>
               <Link
-                href={`/explore_courses/graphic_design`}
+                href={`/explore-courses/graphic-design`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
                 Graphic Design
               </Link>
               <Link
-                href={`/explore_courses/digital_marketing`}
+                href={`/explore-courses/digital-marketing`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
                 Digital Marketing
               </Link>
               <Link
-                href={`/explore_courses/web_design`}
+                href={`/explore-courses/web-design`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
                 Web Design
               </Link>
               <Link
-                href={`/explore_courses/mobile_app_development`}
+                href={`/explore-courses/mobile-app-development`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
                 Mobile App Development
               </Link>
               <Link
-                href={`/explore_courses/ui_ux`}
+                href={`/explore-courses/ui-ux`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
@@ -153,42 +153,42 @@ const MobileNav = ({ onLinkClick }) => {
               aria-labelledby="servicesDropdown"
             >
               <Link
-                href={`/explore-services/webdevelopment`}
+                href={`/explore-services/web-development`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
                 Web Development
               </Link>
               <Link
-                href={`/explore-services/graphic_design`}
+                href={`/explore-services/graphic-design`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
                 Graphic Design
               </Link>
               <Link
-                href={`/explore-services/digital_marketing`}
+                href={`/explore-services/digital-marketing`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
                 Digital Marketing
               </Link>
               <Link
-                href={`/explore-services/web_design`}
+                href={`/explore-services/web-design`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
                 Web Design
               </Link>
               <Link
-                href={`/explore-services/mobile_app_development`}
+                href={`/explore-services/mobile-app-development`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
                 Mobile App Development
               </Link>
               <Link
-                href={`/explore-services/ui_ux`}
+                href={`/explore-services/ui-ux`}
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >

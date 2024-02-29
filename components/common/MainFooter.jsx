@@ -40,12 +40,12 @@ const MainFooter = () => {
         <div className='flex flex-1 flex-col justify-center items-start gap-3'>
             <h4 className='text-[24px] font-medium text-white'>Services</h4>
             <ul className='flex flex-col justify-center items-start gap-2'>
-                <Link href={`/explore-services/webdevelopment`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Web Development</Link>
-                <Link href={`/explore-services/graphic_design`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Graphic design</Link>
-                <Link href={`/explore-services/digital_marketing`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Digital Marketing</Link>
-                <Link href={`/explore-services/web_design`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Web Design</Link>
-                <Link href={`/explore-services/mobile_app_development`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Mobile App Development</Link>
-                <Link href={`/explore-services/ui_ux`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Ui & Ux</Link>
+                <Link href={`/explore-services/web-development`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Web Development</Link>
+                <Link href={`/explore-services/graphic-design`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Graphic design</Link>
+                <Link href={`/explore-services/digital-marketing`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Digital Marketing</Link>
+                <Link href={`/explore-services/web-design`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Web Design</Link>
+                <Link href={`/explore-services/mobile-app-development`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Mobile App Development</Link>
+                <Link href={`/explore-services/ui-ux`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Ui & Ux</Link>
 
             </ul>
         </div>

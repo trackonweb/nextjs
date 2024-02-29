@@ -16,7 +16,7 @@ const coursesList = [
         duration: '6',
         projects: '16',
          img: '/istockphoto-1291971619-612x612.jpg',
-         link: `/explore_courses/webdevelopment`,
+         link: `/explore-courses/web-development`,
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const coursesList = [
         duration: '6',
         projects: '12',
          img: '/photo-1626785774573-4b799315345d.avif',
-         link: `/explore_courses/graphic_design`,
+         link: `/explore-courses/graphic-design`,
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ const coursesList = [
         duration: '4',
         projects: '20',
          img: '/istockphoto-1257980223-612x612.jpg',
-         link: `/explore_courses/mobile_app_development`,
+         link: `/explore-courses/mobile-app-development`,
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ const coursesList = [
         duration: '6',
         projects: '39',
          img: '/istockphoto-165844689-612x612.jpg',
-         link: `/explore_courses/digital_marketing`,
+         link: `/explore-courses/digital-marketing`,
     },
     {
         id: 5,
@@ -52,7 +52,7 @@ const coursesList = [
         duration: '4',
         projects: '14',
          img: '/photo-1587440871875-191322ee64b0.avif',
-         link: `/explore_courses/ui_ux`,
+         link: `/explore-courses/ui-ux`,
     },
     {
       id: 6,
@@ -61,7 +61,7 @@ const coursesList = [
       duration: '3',
       projects: '15',
        img: '/istockphoto-1371339413-612x612.jpg',
-       link: `/explore_courses/web_design`,
+       link: `/explore-courses/web_design`,
   },
 ]
 
@@ -79,7 +79,7 @@ const AllCourses = () => {
         <div className={`grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center xl:mx-20 lg:mx-10 mx-4`}>
       {
         coursesList.map((item, index)=>{
-            return  <div key={index} className="flex flex-col justify-start items-start gap-[12px] flex-[1 0 0] border bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer ">
+            return  <div key={index} className="flex flex-col justify-start items-start gap-[12px] flex-[1 0 0] border bg-[rgba(255, 255, 255, 0.80)] rounded-md pb-4 cursor-pointer ">
             <div className='flex justify-center items-center'>
               <Image src={item.img} width={400} height={300} alt='' className='object-contain' />
             </div>

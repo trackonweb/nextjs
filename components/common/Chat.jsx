@@ -12,12 +12,12 @@ const Chat = () => {
   };
 
   return (
-    <div className="fixed bottom-4 left-4 m-3 overflow-hidden">
+    <div className="fixed bottom-28 right-4 m-3 z-50 overflow-hidden">
       <div onClick={handleWhatsAppClick} className="no-underline overflow-hidden cursor-pointer">
         {/* <div  aria-label="whatsapp" className="bg-green-500 rounded-full">
           <WhatsAppIcon className="text-white text-6xl" />
         </div> */}
-        <Image src={'/WhatsApp.svg.webp'} width={60} height={60} alt='' />
+        <Image src={'/WhatsApp.svg.webp'} width={50} height={50} alt='' />
       </div>
     </div>
   );

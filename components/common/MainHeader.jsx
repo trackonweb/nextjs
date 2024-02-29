@@ -8,10 +8,14 @@ import MobileNav from "./MobileNav";
 
 import SummerForm from "./SummerForm";
 
+
+
 const MainHeader = () => {
   const [isMobileNavOpen, setMobileNavOpen] = useState(false);
   const [form, setForm] = useState(false);
+ 
 
+  
   const handleFormClick = () => {
     setForm(!form);
   };
@@ -71,43 +75,49 @@ const MainHeader = () => {
                       />
                     </svg>
                   </div>
-                  <div className="absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[250px] transform">
+                  <div className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[250px] transform `}>
                     <div className="relative top-8 p-6 bg-white  border-t-4 border-cyan-300 w-full">
                       {/* <div className="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[12rem] duration-500 ease-in-out rounded-sm"></div> */}
                       <div className="relative z-10 ">
                         <div className="">
                           <Link
-                            href={`/explore_courses/webdevelopment`}
+                           href={'/explore-courses/web-development'}
+                           
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Web Development
                           </Link>
                           <Link
-                            href={`/explore_courses/graphic_design`}
+                            href={`/explore-courses/graphic-design`}
+                          
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Graphic Design
                           </Link>
                           <Link
-                            href={`/explore_courses/web_design`}
+                            href={`/explore-courses/web-design`}
+                        
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Web Design
                           </Link>
                           <Link
-                            href={`/explore_courses/digital_marketing`}
+                            href={`/explore-courses/digital-marketing`}
+                         
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Digital Marketing
                           </Link>
                           <Link
-                            href={`/explore_courses/mobile_app_development`}
+                            href={`/explore-courses/mobile-app-development`}
+                          
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Mobile App Development
                           </Link>
                           <Link
-                            href={`/explore_courses/ui_ux`}
+                            href={`/explore-courses/ui-ux`}
+                        
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Ui & Ux
@@ -172,37 +182,37 @@ const MainHeader = () => {
                       <div className="relative z-10">
                         <div className="">
                           <Link
-                            href={`/explore-services/webdevelopment`}
+                            href={`/explore-services/web-development`}
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Web Development
                           </Link>
                           <Link
-                            href={`/explore-services/graphic_design`}
+                            href={`/explore-services/graphic-design`}
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Graphic Design
                           </Link>
                           <Link
-                            href={`/explore-services/web_design`}
+                            href={`/explore-services/web-design`}
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Web Design
                           </Link>
                           <Link
-                            href={`/explore-services/digital_marketing`}
+                            href={`/explore-services/digital-marketing`}
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Digital Marketing
                           </Link>
                           <Link
-                            href={`/explore-services/mobile_app_development`}
+                            href={`/explore-services/mobile-app-development`}
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Mobile App Development
                           </Link>
                           <Link
-                            href={`/explore-services/ui_ux`}
+                            href={`/explore-services/ui-ux`}
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
                             Ui & Ux
