@@ -21,6 +21,26 @@ const AllBlog = () => {
 </span>
         </div>
         <div className={`grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center xl:mx-20 lg:mx-10 mx-4`}>
+        <Link href={'/blog/react-websites'} className="flex flex-col justify-start items-start  gap-[12px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer"
+                    >
+            <div className='flex justify-center  items-center'>
+              <Image src={ReactBlog}  alt='Become a Web Designer' className='object-contain ' />
+            </div>
+            <div className='flex justify-between items-center px-5 gap-11'>
+                <span className='flex justify-start items-center gap-3'>
+                    <MdCalendarMonth className='text-[#0588b0]'/>
+                    <p className='text-[12px]'>March 01 2024</p>
+                </span>
+                <span className='flex justify-start items-center gap-3'>
+                    <IoPerson className='text-[#0588b0]'/>
+                    <p className='text-[12px]'>Admin</p>
+                </span>
+            </div>
+            <Link href={'/blog/react-websites'} className='text-[#0588b0] text-start text-[20px] font-[600] tracking-wide px-5 hover:text-black'>React 19: A New Era for Building Awesome Websites</Link>
+            <span className='text-[#696984] text-justify text-[14px] font-normal tracking-wide line-clamp-4 px-5'>In the ever-evolving world of web development, React 19 is about to make a grand entrance, expected to debut in May 2024. This upcoming release is generating a lot of excitement, promising a host of exciting features that will transform the way we create user interfaces. Whether you're a seasoned React pro or just starting, this guide is here to make your transition to React 19 smooth and straightforward.</span>
+            <Link href={'/blog/react-websites'} className='px-5 font-medium  tracking-wide hover:text-[#0588b0] mt-auto'>{`Read More > `}</Link>
+          </Link>
+
         <Link href={'/blog/project-work-idea'} className="flex flex-col justify-start items-start  gap-[12px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer"
                     >
             <div className='flex justify-center  items-center'>
@@ -150,25 +170,7 @@ const AllBlog = () => {
             <Link href={'/blog/web-designer'} className='px-5 font-medium  tracking-wide hover:text-[#0588b0] mt-auto'>{`Read More > `}</Link>
           </Link>
 
-          <Link href={'/blog/react-websites'} className="flex flex-col justify-start items-start  gap-[12px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer"
-                    >
-            <div className='flex justify-center  items-center'>
-              <Image src={ReactBlog}  alt='Become a Web Designer' className='object-contain ' />
-            </div>
-            <div className='flex justify-between items-center px-5 gap-11'>
-                <span className='flex justify-start items-center gap-3'>
-                    <MdCalendarMonth className='text-[#0588b0]'/>
-                    <p className='text-[12px]'>April 07 2023</p>
-                </span>
-                <span className='flex justify-start items-center gap-3'>
-                    <IoPerson className='text-[#0588b0]'/>
-                    <p className='text-[12px]'>Admin</p>
-                </span>
-            </div>
-            <Link href={'/blog/react-websites'} className='text-[#0588b0] text-start text-[20px] font-[600] tracking-wide px-5 hover:text-black'>React 19: A New Era for Building Awesome Websites</Link>
-            <span className='text-[#696984] text-justify text-[14px] font-normal tracking-wide line-clamp-4 px-5'>In the ever-evolving world of web development, React 19 is about to make a grand entrance, expected to debut in May 2024. This upcoming release is generating a lot of excitement, promising a host of exciting features that will transform the way we create user interfaces. Whether you're a seasoned React pro or just starting, this guide is here to make your transition to React 19 smooth and straightforward.</span>
-            <Link href={'/blog/react-websites'} className='px-5 font-medium  tracking-wide hover:text-[#0588b0] mt-auto'>{`Read More > `}</Link>
-          </Link>
+         
         </div>
       </div>
     </div>
