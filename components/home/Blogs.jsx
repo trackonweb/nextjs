@@ -6,7 +6,9 @@ import { IoPerson } from "react-icons/io5";
 import Useful from "../../public/useful.png";
 import JavaScript from "../../public/javascriptmistakes.png";
 import Host2 from "../../public/host2.png";
+
 import ReactBlog from "../../public/reactblog.png";
+
 const Blogs = () => {
   return (
     <div className='bg-white lg:pt-10 pt-5 pb-10 lg:pb-20'>
@@ -20,7 +22,7 @@ const Blogs = () => {
         <Link href={'/blog/react-websites'} className="flex flex-col justify-start items-start  gap-[12px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer"
                     >
             <div className='flex justify-center  items-center'>
-              <Image src={ReactBlog}  alt='Become a Web Designer' className='object-contain ' />
+              <Image src={ReactBlog}  alt='React 19' className='object-contain ' />
             </div>
             <div className='flex justify-between items-center px-5 lg:gap-3 gap-5'>
                 <span className='flex justify-start items-center gap-3'>
@@ -33,29 +35,12 @@ const Blogs = () => {
                 </span>
             </div>
             <Link href={'/blog/react-websites'} className='text-[#0588b0] text-start text-[14px] font-[600] tracking-wide px-5 hover:text-black'>React 19: A New Era for Building Awesome Websites</Link>
-            <span className='text-[#696984] text-justify text-[14px] font-normal tracking-wide line-clamp-4 px-5'>In the ever-evolving world of web development, React 19 is about to make a grand entrance, expected to debut in May 2024. This upcoming release is generating a lot of excitement, promising a host of exciting features that will transform the way we create user interfaces. Whether you're a seasoned React pro or just starting, this guide is here to make your transition to React 19 smooth and straightforward.</span>
+            <span className='text-[#696984] text-justify text-[14px] font-normal tracking-wide  px-5 line-clamp-4'>In the ever-evolving world of web development, React 19 is about to make a grand entrance, expected to debut in May 2024. This upcoming release is generating a lot of excitement, promising a host of exciting features that will transform the way we create user interfaces. Whether you're a seasoned React pro or just starting, this guide is here to make your transition to React 19 smooth and straightforward.</span>
             <Link href={'/blog/react-websites'} className='px-5 font-medium  tracking-wide hover:text-[#0588b0] mt-auto'>{`Read More > `}</Link>
           </Link>
+       
 
-          <Link href={'/blog/web-development-tools'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
-                    >
-            <div className='flex justify-center  items-center'>
-              <Image src={Useful}  alt='Useful Tools For Web Development' className='object-contain' />
-            </div>
-            <div className='flex justify-between items-center px-5 lg:gap-3 gap-5'>
-                <span className='flex justify-start items-center gap-3'>
-                    <MdCalendarMonth className='text-[#0588b0]'/>
-                    <p className='text-[12px]'>April 07 2023</p>
-                </span>
-                <span className='flex justify-start items-center gap-3'>
-                    <IoPerson className='text-[#0588b0]'/>
-                    <p className='text-[12px]'>Admin</p>
-                </span>
-            </div>
-            <Link href={'/blog/web-development-tools'} className='text-[#0588b0] text-start text-[14px] font-[600] tracking-wide px-5 hover:text-black'>Most Useful Tools For Web Development In 2024</Link>
-            <span className='text-[#696984] text-justify text-[14px] font-normal tracking-wide  px-5 line-clamp-4'>In the ever-evolving web development, having the right tools at your fingertips is crucial. This article delves into the significance of web development tools, setting the stage for exploring a diverse range that caters to different facets of the development process.</span>
-            <Link href={'/blog/web-development-tools'} className='px-5 font-medium  tracking-wide hover:text-[#0588b0] mt-auto'>{`Read More > `}</Link>
-          </Link>
+        
 
           <Link href={'/blog/javascript-mistakes-and-solutions'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
                     >
@@ -65,7 +50,7 @@ const Blogs = () => {
             <div className='flex justify-between items-center px-5 lg:gap-3 gap-5'>
                 <span className='flex justify-start items-center gap-3'>
                     <MdCalendarMonth className='text-[#0588b0]'/>
-                    <p className='text-[12px]'>October 24 2023</p>
+                    <p className='text-[12px]'>Fab 22 2024</p>
                 </span>
                 <span className='flex justify-start items-center gap-3'>
                     <IoPerson className='text-[#0588b0]'/>
@@ -76,7 +61,25 @@ const Blogs = () => {
             <span className='text-[#696984] text-justify text-[14px] font-normal tracking-wide  line-clamp-4 px-5'>When it comes to JavaScript coding, avoiding common mistakes is crucial for writing clean, efficient, and error-free code. In this guide, we'll explore the top pitfalls developers often encounter and provide insights on how to sidestep them.</span>
             <Link href={'/blog/javascript-mistakes-and-solutions'} className='px-5 font-medium  tracking-wide hover:text-[#0588b0] mt-auto'>{`Read More > `}</Link>
           </Link>
-
+          <Link href={'/blog/web-development-tools'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
+                    >
+            <div className='flex justify-center  items-center'>
+              <Image src={Useful}  alt='Useful Tools For Web Development' className='object-contain' />
+            </div>
+            <div className='flex justify-between items-center px-5 lg:gap-3 gap-5'>
+                <span className='flex justify-start items-center gap-3'>
+                    <MdCalendarMonth className='text-[#0588b0]'/>
+                    <p className='text-[12px]'>Fab 07 2024</p>
+                </span>
+                <span className='flex justify-start items-center gap-3'>
+                    <IoPerson className='text-[#0588b0]'/>
+                    <p className='text-[12px]'>Admin</p>
+                </span>
+            </div>
+            <Link href={'/blog/web-development-tools'} className='text-[#0588b0] text-start text-[14px] font-[600] tracking-wide px-5 hover:text-black'>Most Useful Tools For Web Development In 2024</Link>
+            <span className='text-[#696984] text-justify text-[14px] font-normal tracking-wide  px-5 line-clamp-4'>In the ever-evolving web development, having the right tools at your fingertips is crucial. This article delves into the significance of web development tools, setting the stage for exploring a diverse range that caters to different facets of the development process.</span>
+            <Link href={'/blog/web-development-tools'} className='px-5 font-medium  tracking-wide hover:text-[#0588b0] mt-auto'>{`Read More > `}</Link>
+          </Link>
           <Link href={'/blog/free-website-hosting'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
                     >
             <div className='flex justify-center  items-center'>
@@ -85,7 +88,7 @@ const Blogs = () => {
             <div className='flex justify-between items-center px-5 lg:gap-3 gap-5'>
                 <span className='flex justify-start items-center gap-3'>
                     <MdCalendarMonth className='text-[#0588b0]'/>
-                    <p className='text-[12px]'>January 12 2023</p>
+                    <p className='text-[12px]'>January 28 2024</p>
                 </span>
                 <span className='flex justify-start items-center gap-3'>
                     <IoPerson className='text-[#0588b0]'/>

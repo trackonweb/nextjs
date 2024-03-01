@@ -71,10 +71,10 @@ const ReactWebsites = () => {
             </ul>
           </div>
           <div className="p-4">
-            <BlogBannerPic BannerImg={ReactBlog} alt={"Common JavaScript Mistakes "} />
+            <BlogBannerPic BannerImg={ReactBlog} alt={"React 19 "} />
             <div className="flex justify-between gap-2 items-center border-2 border-[rgba(124,91,243,0.08)] p-4">
              <div className="flex justify-start flex-col md:flex-row md:items-center items-start gap-3">
-              <span className="text-[15px] tracking-wide ">Updated on 1st March, 24</span>
+              <span className="text-[15px] tracking-wide ">Updated on March 1st, 24</span>
               <span className="flex justify-center items-center gap-2"><FaRegEye/>9.1K Views</span>
              </div>
 

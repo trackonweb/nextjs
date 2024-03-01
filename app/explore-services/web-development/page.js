@@ -5,6 +5,7 @@ import Banner from '@/components/services_category/web_development/Banner';
 import ClientReviews from '@/components/services_category/web_development/ClientReview';
 import Faq from '@/components/services_category/web_development/Faq';
 import FeaturedServices from '@/components/services_category/web_development/FeaturedServices';
+import Offer from '@/components/services_category/web_development/Offer';
 
 
 
@@ -12,8 +13,10 @@ export default function page() {
   return (
     <>
     <WebDevelopmentServices/>
-    <FeaturedServices/>
+    <Offer/>
     <Technologies />
+    <FeaturedServices/>
+  
     <Banner/>
     <ClientReviews/> 
     <Faq />

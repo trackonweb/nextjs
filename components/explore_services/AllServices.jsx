@@ -11,28 +11,32 @@ const services = [
    title: 'Web Development',
    description: 'Thinking to step into online market? Don’t know how to get your website done? You need us! A place not only to build websites but instead bridge the gap between your dreams and reality.',
    img: '/4421964-removebg-preview.png',
-   link: `/explore-services/webdevelopment`,
+   link: `/explore-services/web-development`,
+   alt: "Web Development",
   },
   {
     id: 2,
    title: 'Digital Marketing',
    description: 'Working hard at business but expansion is still an issue? Our team is the solution you exactly want. Everything from Google ads to social media, market needs you and we are happy to help.',
    img: '/concept-of-seo-ranking.svg',
-   link: `/explore-services/digital_marketing`,
+   link: `/explore-services/digital-marketing`,
+   alt: "Digital Marketing",
   },
   {
     id: 3,
    title: 'Graphic Design',
    description: 'Our belief is in quality offering over any of the deliverables. Representing your brand with creatively designed graphics. Providing the best visual communication experience,',
    img: '/website-designing.svg',
-   link: `/explore-services/graphic_design`,
+   link: `/explore-services/graphic-design`,
+   alt: "Graphic Design",
   },
   {
     id: 4,
    title: 'Web Design',
    description: 'Thinking to step into online market? Don’t know how to get your website done? You need us! A place not only to build websites but instead bridge the gap between your dreams and reality.',
    img: '/webd.png',
-   link: `/explore-services/web_design`,
+   link: `/explore-services/web-design`,
+   alt: "Web Design",
   },
   {
     id: 5,
@@ -41,7 +45,8 @@ const services = [
         We convert your beautiful ideas into most efficient app.
         You dream it, we build it!`,
    img: '/4428861-removebg-preview.png',
-   link: `/explore-services/mobile_app_development`,
+   link: `/explore-services/mobile-app-development`,
+   alt: "Mobile App Development",
   },
  
   {
@@ -49,7 +54,8 @@ const services = [
    title: 'UI & UX Design',
    description: 'Build tools that help businesses be successful? Let everyone know about it! We offer customized marketing for your software’s targeting specific audience that would be exactly the one’s you need.',
    img: '/0f09e09c-5c48-4301-b938-b09faf29d270.jpg',
-   link: `/explore-services/ui_ux`,
+   link: `/explore-services/ui-ux`,
+   alt: "UI & UX Design",
   },
 ]
 
@@ -81,7 +87,7 @@ const AllServices = () => {
             return <div  key={index} className="relative flex lg:w-80 w-72 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
             <div className="relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r bg-[#64dfcb]">
             <div className=" overflow-hidden  flex justify-center  items-center  ">
-                       <img src={item.img} className="w-full object-contain"/>
+                       <img src={item.img} alt={item.alt} className="w-full object-contain"/>
                       </div>
             </div>
             <div className="p-6">

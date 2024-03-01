@@ -110,12 +110,12 @@ const Technologies = () => {
           className={`flex  flex-col gap-3 justify-center items-center  pt-10 xl:mx-20 lg:mx-10 mx-4`}
         >
           <h3 className="text-white text-center lg:text-[34px] text-[28px] font-[600] tracking-wide">
-          Languages and Tools of Web Development (2024) you will master<span className=""></span>
+          Explore Our Tech Stack
           </h3>
-          <span className='text-[16px] lg:text-[18px] font-normal tracking-wide text-[#f3f3f3] text-center'>With the Trackonweb master web development in 2024 course, you will master GitHub, Chrome Developer Tools, VS Code, HTML, CSS, SCSS, Tailwind CSS, Bootstrap, JavaScript (JS), ReactJS, React-Bootstrap, NodeJS, MongoDB, Mongoose, Express JS, APIs, Redux, Middleware, and more.</span>
+
          
         </div>
-        <div  className={`grid gap-5 grid-cols-2 md:grid-cols-4 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6  justify-items-center  xl:mx-20 lg:mx-10 mx-4 pt-20 pb-20 `}>
+        <div  className={`grid gap-5 grid-cols-2 md:grid-cols-4 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6  justify-items-center  xl:mx-20 lg:mx-10 mx-4 pt-10 pb-20 `}>
            {
             technologiesList.map((item,index)=>{
                 return  <div key={index} className='bg-white p-[25px] w-[170px] h-[170px] shadow flex flex-col justify-center items-center gap-3 rounded-md'>

@@ -11,7 +11,7 @@ const services = [
    description: `Considering taking your business online? Feel free to reach out! We're more than just a website builder – we're here to connect your dreams with reality.`,
    img: '/4421964-removebg-preview.png',
    alt: 'Web Development',
-   link: `/explore-services/webdevelopment`,
+   link: `/explore-services/web-development`,
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const services = [
    description: `Boost your business's online presence! Get budget-friendly marketing to connect with a wide and targeted audience. Utilize (SMM), (SEO), PPC ads, and more`,
    img: '/concept-of-seo-ranking.svg',
    alt: 'Digital Marketing',
-   link: `/explore-services/digital_marketing`,
+   link: `/explore-services/digital-marketing`,
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const services = [
    description: 'Graphics that attractively convey your message: Represent your brand with creatively designed graphics, ensuring the best visual communication experience.',
    img: '/website-designing.svg',
    alt: 'Graphic Design',
-   link: `/explore-services/graphic_design`,
+   link: `/explore-services/graphic-design`,
   },
 ]
 
