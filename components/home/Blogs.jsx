@@ -6,10 +6,7 @@ import { IoPerson } from "react-icons/io5";
 import Useful from "../../public/useful.png";
 import JavaScript from "../../public/javascriptmistakes.png";
 import Host2 from "../../public/host2.png";
-import Domains from "../../public/domains.png";
-import DesignBlog from "../../public/designblog.png";
-import WorkIdea from "../../public/workidea.png";
-
+import ReactBlog from "../../public/reactblog.png";
 const Blogs = () => {
   return (
     <div className='bg-white lg:pt-10 pt-5 pb-10 lg:pb-20'>
