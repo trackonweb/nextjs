@@ -32,9 +32,9 @@ export default function page() {
 }
 export function generateMetadata(){
   return {
-      title: "Best Website Development Company in Jaipur",
+      title: "Get the Best and Affordable Web Development Services",
       description:
-        `We offer best web development services including Php, Node Js, React,  WordPress,  Next Js, Python, Angular Js, Vue Js and Ecommerce development.`,
+        `Explore our top-notch web development services for healthcare, real estate, e-commerce, Small Business, and more. Affordable, responsive, and SEO-friendly websites. Hurry and call now at +91 8233330466.`,
        
      
   }

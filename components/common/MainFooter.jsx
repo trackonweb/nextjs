@@ -67,7 +67,7 @@ const MainFooter = () => {
     </div>
     <hr/>
  <div className='flex flex-col lg:flex-row justify-between lg:items-center items-start py-7 lg:mx-20 mx-4'>
-    <span className='text-white'>© Copyright 2023. Trackonweb IT Solution </span>
+    <span className='text-white'>© Copyright 2024. Trackonweb IT Solution </span>
     <span className='text-white cursor-pointer '><Link href={'/refund-policy'} >Refund Policy</Link> | <Link href={'/privacy-policy'}>Privacy Policy</Link> | <Link href={'/terms-and-conditions'}>Terms & Conditions</Link></span>
  </div>
 

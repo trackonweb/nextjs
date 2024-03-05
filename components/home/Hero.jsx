@@ -15,7 +15,7 @@ const handleServices  = () =>{
   router.push('/explore-services')
 }
 const handleCourses  = () =>{
-  router.push('/explore_courses')
+  router.push('/explore-courses')
 }
 
   return(
