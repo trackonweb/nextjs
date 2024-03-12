@@ -16,20 +16,8 @@ const Testimonials = () => {
         <div className="flex flex-col  justify-center  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] rounded-lg  shadow-md"
                     >
             <div className='flex justify-start items-start gap-5'>
-                <div className='flex justify-center  items-center '>
-              <Image src={'/1-2.jpg'} width={70} height={70} alt='' className='object-contain rounded-full' />
-            </div>
-               <div className='flex flex-col gap-1 justify-center items-start'>
-               <span className='lg:text-[18px] text-[14px] font-[600] tracking-wide'>Shamsher Singh </span>
-                <span className='text-[14px] font-medium tracking-wide'> Marketing</span>
-                <span className='flex justify-start items-center gap-2'>
-                    <FaStar className='text-yellow-300'/>
-                    <FaStar className='text-yellow-300'/>
-                    <FaStar className='text-yellow-300'/>
-                    <FaStar className='text-yellow-300'/>
-                    <FaStar className='text-yellow-300'/>
-                </span>
-               </div>
+              
+              
                 </div>
             <div className='flex flex-col gap-3'>
                 <FaQuoteLeft className='text-[18px] text-blue-400'/>
@@ -38,19 +26,10 @@ const Testimonials = () => {
                 
             </div>
 
-           
-       
-          </div>
-          <div className="flex flex-col  justify-start  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] rounded-lg  shadow-md"
-                    >
-            <div className='flex justify-start items-start gap-5'>
-                <div className='flex justify-center  items-center '>
-              <Image src={'/1-2.jpg'} width={70} height={70} alt='' className='object-contain rounded-full' />
-            </div>
-               <div className='flex flex-col gap-1 justify-center items-start'>
-               <span className='lg:text-[18px] text-[14px] font-[600] tracking-wide'>Vicky Choudhary</span>
+            <div className='flex flex-col gap-1 justify-center items-start'>
+               <span className='lg:text-[18px] text-[14px] font-[600] tracking-wide'>Shamsher Singh </span>
                 <span className='text-[14px] font-medium tracking-wide'> Marketing</span>
-                <span className='flex justify-start items-center gap-2'>
+                <span className='flex justify-start items-center gap-1'>
                     <FaStar className='text-yellow-300'/>
                     <FaStar className='text-yellow-300'/>
                     <FaStar className='text-yellow-300'/>
@@ -58,6 +37,13 @@ const Testimonials = () => {
                     <FaStar className='text-yellow-300'/>
                 </span>
                </div>
+       
+          </div>
+          <div className="flex flex-col  justify-start  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] rounded-lg  shadow-md"
+                    >
+            <div className='flex justify-start items-start gap-5'>
+                
+              
                 </div>
             <div className='flex flex-col gap-3'>
                 <FaQuoteLeft className='text-[18px] text-blue-400'/>
@@ -65,20 +51,10 @@ const Testimonials = () => {
                
                 
             </div>
-
-           
-       
-          </div>
-          <div className="flex flex-col  justify-start  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] rounded-lg  shadow-md"
-                    >
-            <div className='flex justify-start items-start gap-5'>
-                <div className='flex justify-center  items-center '>
-              <Image src={'/1-2.jpg'} width={70} height={70} alt='' className='object-contain rounded-full' />
-            </div>
-               <div className='flex flex-col gap-1 justify-center items-start'>
-               <span className='lg:text-[18px] text-[14px] font-[600] tracking-wide' >Raj Kishan</span>
+            <div className='flex flex-col gap-1 justify-center items-start'>
+               <span className='lg:text-[18px] text-[14px] font-[600] tracking-wide'>Vicky Choudhary</span>
                 <span className='text-[14px] font-medium tracking-wide'> Marketing</span>
-                <span className='flex justify-start items-center gap-2'>
+                <span className='flex justify-start items-center gap-1'>
                     <FaStar className='text-yellow-300'/>
                     <FaStar className='text-yellow-300'/>
                     <FaStar className='text-yellow-300'/>
@@ -86,6 +62,14 @@ const Testimonials = () => {
                     <FaStar className='text-yellow-300'/>
                 </span>
                </div>
+           
+       
+          </div>
+          <div className="flex flex-col  justify-start  items-start p-[25px] gap-5 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] rounded-lg  shadow-md"
+                    >
+            <div className='flex justify-start items-start gap-5'>
+                
+              
                 </div>
             <div className='flex flex-col gap-3'>
                 <FaQuoteLeft className='text-[18px] text-blue-400'/>
@@ -93,7 +77,17 @@ const Testimonials = () => {
                
                 
             </div>
-
+            <div className='flex flex-col gap-1 justify-center items-start'>
+               <span className='lg:text-[18px] text-[14px] font-[600] tracking-wide' >Raj Kishan</span>
+                <span className='text-[14px] font-medium tracking-wide'> Marketing</span>
+                <span className='flex justify-start items-center gap-1'>
+                    <FaStar className='text-yellow-300'/>
+                    <FaStar className='text-yellow-300'/>
+                    <FaStar className='text-yellow-300'/>
+                    <FaStar className='text-yellow-300'/>
+                    <FaStar className='text-yellow-300'/>
+                </span>
+               </div>
            
        
           </div>

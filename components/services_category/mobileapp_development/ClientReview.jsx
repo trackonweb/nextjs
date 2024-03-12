@@ -10,25 +10,25 @@ const Learners = [
     id: 1,
     title: "Rohit Sharma",
     description:
-      "Wow, TrackonWeb! When I saw your custom designs, it felt like finding the missing pieces to a puzzle. They clicked perfectly with our brand story and brought it to life in a way I never imagined. It's a true masterpiece of storytelling through design",
+      "Web development course offered a transformative experience. Structured curriculum, interactive projects, and dedicated instructors. It ignited my passion and equipped me with valuable skills. Highly recommended for aspiring developers",
   },
   {
     id: 2,
     title: "Mohit Gupta",
     description:
-      "Our customers can't stop raving about the product visuals! TrackonWeb didn't just design graphics, they designed a whole new shopping experience that entices people to buy. It's amazing!",
+      "Exceptional web development course! Comprehensive content, hands-on projects, and excellent support. It exceeded my expectations. Highly recommended for anyone serious about mastering web development skills.",
   },
   {
     id: 3,
     title: "Lovely Singh",
     description:
-      "As a small business, we often felt lost in the crowd. But TrackonWeb's graphic design solutions made us feel like a big fish in a small pond! They created impactful designs that helped us punch above our weight class and really stand out.",
+      "Informative web development course with a solid foundation. Pacing felt a bit rushed at times. More interactive sessions would enhance the learning experience. Still valuable for beginners.",
   },
   {
     id: 4,
     title: "Mukesh Kumar",
     description:
-      "TrackonWeb's advertising designs are like sonic booms in the crowded marketplace. They grab attention, cut through all the noise, and leave a lasting impression on viewers. They're incredible!",
+      "Enthralling web development journey! Engaging lectures, fun projects, and a vibrant community. The course provided a strong foundation and fostered a passion for web development. Highly recommended.",
   },
  
 ];

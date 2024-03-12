@@ -5,31 +5,32 @@ import RequestModel from '../RequestModel';
 
 const services = [
     {
-        title: "Custom Graphic Designs",
+        title: "Custom Graphic designing",
         description: `
         Enhance your brand identity with our bespoke graphic design services. Our skilled team transforms concepts into captivating visuals, crafting eye-catching logos and compelling social media graphics. We bring your vision to life with a perfect blend of creativity and precision, ensuring your brand stands out with unique and impactful design solutions.`,
     },
     {
-        title: "E-commerce Graphic Solutions",
+        title: "E-commerce Graphic",
         description: `Revitalize your online store through our dedicated e-commerce graphic design services. Crafting visually appealing product images, banners, and graphics, we enhance your digital presence. Our focus is on delivering a seamless and attractive user experience, ensuring your e-commerce platform stands out and engages customers effectively. Elevate your online business with our specialized design solutions.`,
     },
     {
-        title: "Small Business Design Packages",
+        title: "Small Business Graphic Designs ",
         description: `Boost your small business with our all-inclusive graphic design services. Affordable and impactful, we handle everything from crafting logos to creating marketing materials. Our goal is to help your business leave a lasting mark in the digital world, ensuring a strong and memorable online presence that resonates with your audience.`,
     },
     {
-        title: "Web Portal Graphics",
+        title: "Brand Identity Design",
         description: `
-        Discover our varied web portal graphic services designed for different audiences. We create dynamic interfaces and visually appealing data presentations, enhancing the user experience across various sectors. Our graphics blend innovation with functionality, ensuring an immersive and user-friendly digital experience for your audience. Elevate your online presence with our advanced web portal solutions.`,
+        Elevate your brand with Trackonweb exceptional graphic design services. Our creative experts specialize in crafting unique and impactful brand identities, ensuring a cohesive and memorable visual representation. From logos to marketing collateral, we deliver tailored designs that resonate with your audience and leave a lasting impression. Transform your brand today!`,
     },
     {
-        title: "Healthcare and Education Visuals",
+        title: "Advertising Design and Marketing graphics ",
         description: `
-        Count on our expert team for powerful graphic designs customized for healthcare and education. We specialize in crafting visuals that captivate patients, students, and diverse audiences, establishing a robust online presence for businesses in these sectors. Trust us to create engaging and impactful graphics that resonate with your target audience and elevate your brand.`,
+        
+Transform your advertising and marketing strategies with Trackonweb cutting-edge graphic design services. Our expert designers bring creativity to life, producing eye-catching visuals that captivate your audience. From compelling ad designs to engaging marketing graphics, we craft impactful visuals that elevate your brand's presence and drive results. Elevate your marketing game with us!`,
     },
     {
-        title: "Graphic Design for Website Maintenance",
-        description: `Improve your website's performance with our dedicated graphic design team. We provide SEO-friendly visuals and responsive design updates, ensuring your site stays competitive and visually appealing. Partner with us to handle the technical aspects of graphic design maintenance, keeping your website at the forefront of user experience and design trends.`,
+        title: "Social Media Graphics",
+        description: `Boost your online presence with Trackonweb graphic design services. We specialize in creating eye-catching and shareable content customized for your brand. Whether it's appealing social media graphics or captivating visuals, we make sure your online identity shines, building strong connections with your audience. Supercharge your social media strategy today!`,
     },
 ]
 

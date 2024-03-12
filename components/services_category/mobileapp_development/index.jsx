@@ -4,18 +4,18 @@ import React from "react";
 import WebDevs from "../../../public/webdevs.png"
 
 
-const GraphicDesignServices = () => {
+const AppDevelopmentServices = () => {
   return (
     <div className={`bg-gradient-to-r from-[#0588b0] to-[#0588b0] via-black-28  `}>
       <div className="container mx-auto ">
        <div className="xl:mx-20 lg:mx-10  mx-4">
        <div className="flex  justify-between gap-7 items-center w-full h-full pt-28 pb-20 ">
             <div className=" md:w-1/2 w-full flex flex-col justify-start items-start  gap-4">
-            <span className="text-white capitalize  lg:text-[32px] text-[22px] font-bold tracking-wider ">
-            Creative and Budget-Friendly Graphic Design Solutions 
+            <span className="text-white  lg:text-[32px] text-[22px] font-bold tracking-wider ">
+            Cost-Effective Mobile App Development Solutions
             </span>
             <span className="text-white lg:text-[17px] text-[14px] mt-3">
-            Revamp your brand's look with Trackonweb creative and cost-effective graphic design solutions. Our skilled team specializes in transforming ideas into captivating visuals, propelling your brand to new heights. Explore our excellent services tailored for different industries, including Logo Design, Branding, Print, Digital Media, Web Design, Packaging, Motion Graphics, Illustrations, Infographics, Typography, Social Media Graphics, Environmental Graphics, UI/UX Design, and Marketing Collateral. Let Trackonweb partner with you to bring your design dreams to life!
+{`            Elevate your online game with Trackonweb IT Solutions! Our expert team turns your ideas into fantastic mobile solutions for healthcare, real estate, e-commerce, and more. We create affordable, responsive, and SEO-friendly apps using React Native, Flutter, iOS, Android . Make Trackonweb your go-to for cost-effective, dynamic apps that bring your vision to life. Boost your online presence and business success with Trackonweb – we're here to turn your mobile dreams into reality!`}
             </span>
           <div className="mt-7 flex justify-start items-start">
           <Link
@@ -44,4 +44,4 @@ const GraphicDesignServices = () => {
   );
 };
 
-export default GraphicDesignServices;
+export default AppDevelopmentServices;

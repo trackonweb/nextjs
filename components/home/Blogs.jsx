@@ -22,7 +22,7 @@ const Blogs = () => {
         <Link href={'/blog/react-websites'} className="flex flex-col justify-start items-start  gap-[12px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer"
                     >
             <div className='flex justify-center  items-center'>
-              <Image src={ReactBlog}  alt='React 19' className='object-contain ' />
+              <Image src={ReactBlog}  alt='React 19' className='object-cover ' />
             </div>
             <div className='flex justify-between items-center px-5 lg:gap-3 gap-5'>
                 <span className='flex justify-start items-center gap-3'>
@@ -45,7 +45,7 @@ const Blogs = () => {
           <Link href={'/blog/javascript-mistakes-and-solutions'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
                     >
             <div className='flex justify-center  items-center'>
-              <Image src={JavaScript}  alt='Common Mistakes to Avoid in JavaScript' className='object-contain' />
+              <Image src={JavaScript}  alt='Common Mistakes to Avoid in JavaScript' className='object-cover' />
             </div>
             <div className='flex justify-between items-center px-5 lg:gap-3 gap-5'>
                 <span className='flex justify-start items-center gap-3'>
@@ -64,7 +64,7 @@ const Blogs = () => {
           <Link href={'/blog/web-development-tools'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
                     >
             <div className='flex justify-center  items-center'>
-              <Image src={Useful}  alt='Useful Tools For Web Development' className='object-contain' />
+              <Image src={Useful}  alt='Useful Tools For Web Development' className='object-cover' />
             </div>
             <div className='flex justify-between items-center px-5 lg:gap-3 gap-5'>
                 <span className='flex justify-start items-center gap-3'>
@@ -83,7 +83,7 @@ const Blogs = () => {
           <Link href={'/blog/free-website-hosting'} className="flex flex-col justify-start items-start  gap-[10px] flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] pb-4 cursor-pointer rounded-lg"
                     >
             <div className='flex justify-center  items-center'>
-              <Image src={Host2}  alt='best platforms for free website hosting ' className='object-contain' />
+              <Image src={Host2}  alt='best platforms for free website hosting ' className='object-cover' />
             </div>
             <div className='flex justify-between items-center px-5 lg:gap-3 gap-5'>
                 <span className='flex justify-start items-center gap-3'>

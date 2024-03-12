@@ -38,7 +38,19 @@ const MainFooter = () => {
             </ul>
         </div>
         <div className='flex flex-1 flex-col justify-center items-start gap-3'>
-            <h4 className='text-[24px] font-medium text-white'>Services</h4>
+            <Link href={`/explore-courses`} className='text-[24px] font-medium text-white'>Courses</Link>
+            <ul className='flex flex-col justify-center items-start gap-2'>
+                <Link href={`/explore-courses/web-development`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Web Development</Link>
+                <Link href={`/explore-courses/graphic-design`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Graphic design</Link>
+                <Link href={`/explore-courses/digital-marketing`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Digital Marketing</Link>
+                <Link href={`/explore-courses/web-design`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Web Design</Link>
+                <Link href={`/explore-courses/mobile-app-development`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Mobile App Development</Link>
+                <Link href={`/explore-courses/ui-ux`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Ui & Ux</Link>
+
+            </ul>
+        </div>
+        <div className='flex flex-1 flex-col justify-center items-start gap-3'>
+            <Link href={`/explore-services`} className='text-[24px] font-medium text-white'>Services</Link>
             <ul className='flex flex-col justify-center items-start gap-2'>
                 <Link href={`/explore-services/web-development`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Web Development</Link>
                 <Link href={`/explore-services/graphic-design`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Graphic design</Link>

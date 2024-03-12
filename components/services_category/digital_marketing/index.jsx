@@ -4,7 +4,7 @@ import React from "react";
 import WebDevs from "../../../public/webdevs.png"
 
 
-const GraphicDesignServices = () => {
+const DigitalMarketingServices = () => {
   return (
     <div className={`bg-gradient-to-r from-[#0588b0] to-[#0588b0] via-black-28  `}>
       <div className="container mx-auto ">
@@ -12,10 +12,10 @@ const GraphicDesignServices = () => {
        <div className="flex  justify-between gap-7 items-center w-full h-full pt-28 pb-20 ">
             <div className=" md:w-1/2 w-full flex flex-col justify-start items-start  gap-4">
             <span className="text-white capitalize  lg:text-[32px] text-[22px] font-bold tracking-wider ">
-            Creative and Budget-Friendly Graphic Design Solutions 
+            Improve Your Online Image Get the Most Out of Digital Marketing services
             </span>
             <span className="text-white lg:text-[17px] text-[14px] mt-3">
-            Revamp your brand's look with Trackonweb creative and cost-effective graphic design solutions. Our skilled team specializes in transforming ideas into captivating visuals, propelling your brand to new heights. Explore our excellent services tailored for different industries, including Logo Design, Branding, Print, Digital Media, Web Design, Packaging, Motion Graphics, Illustrations, Infographics, Typography, Social Media Graphics, Environmental Graphics, UI/UX Design, and Marketing Collateral. Let Trackonweb partner with you to bring your design dreams to life!
+            Elevate your brand's online presence with Trackonweb innovative and affordable digital marketing solutions. Our expert team excels in turning concepts into compelling visuals, propelling your brand to new heights. Discover our comprehensive services tailored for various industries, including Social Media Management, Content Creation, SEO Optimization, Email Marketing, PPC Campaigns, Online Advertising, Analytics, Influencer Marketing, Website Optimization, Video Marketing, Social Media Ads, Mobile Marketing, and Online Reputation Management. Let Trackonweb be your trusted partner in realizing your digital marketing aspirations!
             </span>
           <div className="mt-7 flex justify-start items-start">
           <Link
@@ -44,4 +44,4 @@ const GraphicDesignServices = () => {
   );
 };
 
-export default GraphicDesignServices;
+export default DigitalMarketingServices;
