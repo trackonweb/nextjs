@@ -17,7 +17,7 @@ export default function page() {
     <Technologies />
     <FeaturedServices/>
   
-    <Banner/>
+    <Banner heading={'Unlock Clarity Unveiling Transparent Costs for Web App Development Services'}/>
     <ClientReviews/> 
     <Faq />
 

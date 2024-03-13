@@ -219,8 +219,8 @@ const MobileNav = ({ onLinkClick }) => {
             Contact Us
           </Link>
         </ul>
-        <div className="lg:hidden flex absolute top-4 right-3 ">
-          <span onClick={handleLinkClick}><IoClose className="text-4xl cursor-pointer"/></span>
+        <div className="lg:hidden flex absolute top-4 right-3 flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] rounded-lg  shadow-md  p-[8px] ">
+          <span onClick={handleLinkClick}><IoClose className="text-3xl cursor-pointer"/></span>
         </div>
       </div>
     </div>

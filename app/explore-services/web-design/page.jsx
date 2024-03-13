@@ -19,7 +19,7 @@ export default function Page() {
      <Offer/>
       <Technologies />
      <FeaturedServices/>
-     <Banner/>
+     {/* <Banner/> */}
      <ClientReviews/>
       <Faq />
     </>

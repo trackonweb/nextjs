@@ -245,8 +245,8 @@ const MainHeader = () => {
               Summer Bootcamp registration
             </button>
             
-            <div className="lg:hidden flex" onClick={toggleMobileNav}>
-                <GiHamburgerMenu className="text-[28px] cursor-pointer" />
+            <div className="lg:hidden flex flex-[1 0 0] border  bg-[rgba(255, 255, 255, 0.80)] rounded-lg  shadow-md  p-[8px] " onClick={toggleMobileNav}>
+                <GiHamburgerMenu className="text-[28px] text-black cursor-pointer " />
               </div>
             </div>
            

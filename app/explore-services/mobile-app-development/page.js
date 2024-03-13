@@ -21,7 +21,7 @@ export default function Page() {
 
       {/* <Customizable /> */} <Technologies />
       <FeaturedServices/>
-     <Banner/>
+     {/* <Banner/> */}
      <ClientReviews/>
       <Faq />
     </>

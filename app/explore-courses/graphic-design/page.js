@@ -21,3 +21,12 @@ export default function Page(){
         </>
     )
 }
+
+export function generateMetadata(){
+    return {
+        title: "Advanced Graphic Designing Course in Jaipur | Free Internship",
+        description:
+          `Join us! to create the most advanced graphic designs from scratch – Become a master in Adobe Photoshop, Illustrator, Coral Draw, InDesign, Lightroom, and Canva`,
+       
+    }
+}
