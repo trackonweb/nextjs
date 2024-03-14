@@ -113,7 +113,7 @@ const MobileNav = ({ onLinkClick }) => {
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
-                Ui & Ux
+                UI & UX
               </Link>
             </ul>
           </div>
@@ -192,7 +192,7 @@ const MobileNav = ({ onLinkClick }) => {
                 onClick={handleLinkClick}
                 className="text-[14px] font-medium"
               >
-                Ui & Ux
+                UI & UX
               </Link>
             </ul>
           </div>

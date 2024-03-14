@@ -21,7 +21,8 @@ export default function Page() {
 
       {/* <Customizable /> */} <Technologies />
       <FeaturedServices/>
-     {/* <Banner/> */}
+      <Banner heading={`
+Boost Your Business with Our Mobile App Services. Reach Out Today for Custom Solutions That Fit Your Needs Perfectly!`}/>
      <ClientReviews/>
       <Faq />
     </>

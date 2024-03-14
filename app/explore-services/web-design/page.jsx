@@ -19,7 +19,7 @@ export default function Page() {
      <Offer/>
       <Technologies />
      <FeaturedServices/>
-     {/* <Banner/> */}
+     <Banner heading={`Boost Your Online Presence with Our Web Design Services: Get Personalized Solutions to Improve Your Website Today!`}/>
      <ClientReviews/>
       <Faq />
     </>

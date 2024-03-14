@@ -6,30 +6,29 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaStar, FaQuoteLeft } from "react-icons/fa6";
 
 const Learners = [
-  {
-    id: 1,
-    title: "Rohit Sharma",
-    description:
-      "Web development course offered a transformative experience. Structured curriculum, interactive projects, and dedicated instructors. It ignited my passion and equipped me with valuable skills. Highly recommended for aspiring developers",
-  },
-  {
-    id: 2,
-    title: "Mohit Gupta",
-    description:
-      "Exceptional web development course! Comprehensive content, hands-on projects, and excellent support. It exceeded my expectations. Highly recommended for anyone serious about mastering web development skills.",
-  },
-  {
-    id: 3,
-    title: "Lovely Singh",
-    description:
-      "Informative web development course with a solid foundation. Pacing felt a bit rushed at times. More interactive sessions would enhance the learning experience. Still valuable for beginners.",
-  },
-  {
-    id: 4,
-    title: "Mukesh Kumar",
-    description:
-      "Enthralling web development journey! Engaging lectures, fun projects, and a vibrant community. The course provided a strong foundation and fostered a passion for web development. Highly recommended.",
-  },
+  
+    {
+      id: 1,
+      title: "Laura Smith",
+      description: "I'm blown away by TrackonWeb web design services! Their team took our vision and turned it into a stunning website that perfectly represents our brand. The design is modern, sleek, and user-friendly. Highly recommend!"
+    },
+    {
+      id: 2,
+      title: "Daniel Taylor",
+      description: "TrackonWeb web design expertise has been exceptional! They created a website that exceeded our expectations in terms of both aesthetics and functionality. Their attention to detail and commitment to delivering quality work are commendable. Thank you!"
+    },
+    {
+      id: 3,
+      title: "Olivia Johnson",
+      description: "We're thrilled with TrackonWeb web design services! They listened to our requirements carefully and translated them into a visually appealing and intuitive website. Their team's professionalism and responsiveness throughout the project were impressive. Couldn't be happier!"
+    },
+    {
+      id: 4,
+      title: "James Wilson",
+      description: "TrackonWeb web design solutions have been outstanding! They created a website that not only looks great but also performs seamlessly across all devices. Their expertise in UI/UX design is evident in every aspect of the website. They're truly a reliable partner for web design!"
+    }
+  
+  
  
 ];
 
@@ -75,7 +74,7 @@ const ClientReviews = () => {
 
   return (
     <div className={`bg-[url('/istockphoto-1358014313-612x612.jpg')] bg-cover bg-center bg-fixed`}>
-       <div className='bg-[rgba(0,0,0,0.80)]  py-20 '>
+       <div className='bg-[rgba(0,0,0,0.48)]  py-20 '>
        <div className="container mx-auto">
         <div
           className={`flex flex-col justify-center items-center space-y-2  pb-16 mx-4`}

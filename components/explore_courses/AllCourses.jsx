@@ -61,7 +61,7 @@ const coursesList = [
       duration: '3',
       projects: '15',
        img: '/istockphoto-1371339413-612x612.jpg',
-       link: `/explore-courses/web_design`,
+       link: `/explore-courses/web-design`,
   },
 ]
 

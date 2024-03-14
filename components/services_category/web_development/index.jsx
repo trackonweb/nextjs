@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import WebDevs from "../../../public/webdevs.png"
+import WebDevs from "../../../public/webs.png"
 
 
 const WebDevelopmentServices = () => {

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import WebDevs from "../../../public/webdevs.png"
+import Graphic from "../../../public/graphic1.png"
 
 
 const GraphicDesignServices = () => {
@@ -29,9 +29,9 @@ const GraphicDesignServices = () => {
             <div className=" hidden md:flex w-1/2">
                 <div className="">
                 <Image
-              src={WebDevs}
+              src={Graphic}
             
-              alt="Web Development "
+              alt="Graphic design "
               className="object-cover"
             />
                 </div>

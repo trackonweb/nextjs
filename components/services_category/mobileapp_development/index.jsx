@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import WebDevs from "../../../public/webdevs.png"
+import Mobile from "../../../public/mobile1.png"
 
 
 const AppDevelopmentServices = () => {
@@ -29,7 +29,7 @@ const AppDevelopmentServices = () => {
             <div className=" hidden md:flex w-1/2">
                 <div className="">
                 <Image
-              src={WebDevs}
+              src={Mobile}
             
               alt="Web Development "
               className="object-cover"

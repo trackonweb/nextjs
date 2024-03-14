@@ -8,28 +8,24 @@ import { FaStar, FaQuoteLeft } from "react-icons/fa6";
 const Learners = [
   {
     id: 1,
-    title: "Rohit Sharma",
-    description:
-      "Web development course offered a transformative experience. Structured curriculum, interactive projects, and dedicated instructors. It ignited my passion and equipped me with valuable skills. Highly recommended for aspiring developers",
-  },
-  {
+    title: "Amit Patel",
+    description: "I'm blown away by TrackonWeb's digital marketing services! Their strategies propelled our online presence to new heights, resulting in increased traffic and conversions. Highly recommend!"
+    },
+    {
     id: 2,
-    title: "Mohit Gupta",
-    description:
-      "Exceptional web development course! Comprehensive content, hands-on projects, and excellent support. It exceeded my expectations. Highly recommended for anyone serious about mastering web development skills.",
-  },
-  {
+    title: "Neha Gupta",
+    description: "TrackonWeb digital marketing expertise has been a game-changer for our business. Their personalized approach and data-driven strategies have helped us achieve remarkable growth. Thank you!"
+    },
+    {
     id: 3,
-    title: "Lovely Singh",
-    description:
-      "Informative web development course with a solid foundation. Pacing felt a bit rushed at times. More interactive sessions would enhance the learning experience. Still valuable for beginners.",
-  },
-  {
+    title: "Rajesh Singh",
+    description: "Impressive results! Thanks to TrackonWeb's digital marketing efforts, our brand visibility has soared, leading to higher engagement and customer acquisition. Couldn't be happier with the outcome!"
+    },
+    {
     id: 4,
-    title: "Mukesh Kumar",
-    description:
-      "Enthralling web development journey! Engaging lectures, fun projects, and a vibrant community. The course provided a strong foundation and fostered a passion for web development. Highly recommended.",
-  },
+    title: "Pooja Sharma",
+    description: "TrackonWeb knows how to deliver results! Their digital marketing services have significantly boosted our online presence and brand reputation. Trustworthy, reliable, and highly recommended!"
+    }
  
 ];
 
@@ -75,7 +71,7 @@ const ClientReviews = () => {
 
   return (
     <div className={`bg-[url('/istockphoto-1358014313-612x612.jpg')] bg-cover bg-center bg-fixed`}>
-       <div className='bg-[rgba(0,0,0,0.80)]  py-20 '>
+       <div className=' bg-[rgba(0,0,0,0.48)]  py-20 '>
        <div className="container mx-auto">
         <div
           className={`flex flex-col justify-center items-center space-y-2  pb-16 mx-4`}

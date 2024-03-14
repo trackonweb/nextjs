@@ -6,30 +6,29 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaStar, FaQuoteLeft } from "react-icons/fa6";
 
 const Learners = [
-  {
-    id: 1,
-    title: "Rohit Sharma",
-    description:
-      "Web development course offered a transformative experience. Structured curriculum, interactive projects, and dedicated instructors. It ignited my passion and equipped me with valuable skills. Highly recommended for aspiring developers",
-  },
-  {
-    id: 2,
-    title: "Mohit Gupta",
-    description:
-      "Exceptional web development course! Comprehensive content, hands-on projects, and excellent support. It exceeded my expectations. Highly recommended for anyone serious about mastering web development skills.",
-  },
-  {
-    id: 3,
-    title: "Lovely Singh",
-    description:
-      "Informative web development course with a solid foundation. Pacing felt a bit rushed at times. More interactive sessions would enhance the learning experience. Still valuable for beginners.",
-  },
-  {
-    id: 4,
-    title: "Mukesh Kumar",
-    description:
-      "Enthralling web development journey! Engaging lectures, fun projects, and a vibrant community. The course provided a strong foundation and fostered a passion for web development. Highly recommended.",
-  },
+  
+    {
+      id: 1,
+      title: "Emily Anderson",
+      description: "I'm amazed by TrackonWeb mobile app development services! Their innovative solutions have transformed our ideas into reality. The app is user-friendly, visually appealing, and performs flawlessly. Highly recommend!"
+    },
+    {
+      id: 2,
+      title: "Michael Brown",
+      description: "TrackonWeb mobile app development expertise has been outstanding! They understood our requirements perfectly and delivered a high-quality app within the stipulated time frame. Their professionalism and dedication are commendable. Thank you!"
+    },
+    {
+      id: 3,
+      title: "Sophia Martinez",
+      description: "We're delighted with TrackonWeb mobile app development services! They created an app that exceeded our expectations in terms of functionality and design. Their team's communication and support throughout the project were exceptional. Couldn't be happier!"
+    },
+    {
+      id: 4,
+      title: "William Johnson",
+      description: "TrackonWeb mobile app development solutions have been phenomenal! They built an app that perfectly aligns with our business goals and user needs. The app's performance and user experience are top-notch. They're truly a reliable partner for app development!"
+    }
+  
+  
  
 ];
 
@@ -75,7 +74,7 @@ const ClientReviews = () => {
 
   return (
     <div className={`bg-[url('/istockphoto-1358014313-612x612.jpg')] bg-cover bg-center bg-fixed`}>
-       <div className='bg-[rgba(0,0,0,0.80)]  py-20 '>
+       <div className='bg-[rgba(0,0,0,0.48)]  py-20 '>
        <div className="container mx-auto">
         <div
           className={`flex flex-col justify-center items-center space-y-2  pb-16 mx-4`}

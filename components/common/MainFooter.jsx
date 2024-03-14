@@ -45,7 +45,7 @@ const MainFooter = () => {
                 <Link href={`/explore-courses/digital-marketing`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Digital Marketing</Link>
                 <Link href={`/explore-courses/web-design`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Web Design</Link>
                 <Link href={`/explore-courses/mobile-app-development`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Mobile App Development</Link>
-                <Link href={`/explore-courses/ui-ux`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Ui & Ux</Link>
+                <Link href={`/explore-courses/ui-ux`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>UI & UX</Link>
 
             </ul>
         </div>
@@ -57,7 +57,7 @@ const MainFooter = () => {
                 <Link href={`/explore-services/digital-marketing`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Digital Marketing</Link>
                 <Link href={`/explore-services/web-design`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Web Design</Link>
                 <Link href={`/explore-services/mobile-app-development`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Mobile App Development</Link>
-                <Link href={`/explore-services/ui-ux`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>Ui & Ux</Link>
+                <Link href={`/explore-services/ui-ux`} className='text-[14px] text-white hover:text-[#64dfcb] duration-500'>UI & UX</Link>
 
             </ul>
         </div>

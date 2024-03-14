@@ -75,7 +75,7 @@ const ClientReviews = () => {
 
   return (
     <div className={`bg-[url('/istockphoto-1358014313-612x612.jpg')] bg-cover bg-center bg-fixed`}>
-       <div className='bg-[rgba(0,0,0,0.80)]  py-20 '>
+       <div className='bg-[rgba(0,0,0,0.48)]  py-20 '>
        <div className="container mx-auto">
         <div
           className={`flex flex-col justify-center items-center space-y-2  pb-16 mx-4`}

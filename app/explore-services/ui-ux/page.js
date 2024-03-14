@@ -18,7 +18,7 @@ export default function Page() {
     <Offer/>
       <Technologies />
       <FeaturedServices/>
- {/* <Banner/> */}
+ <Banner heading={`Improve Your User Experience with Our UI/UX Services. Connect Now for Custom Solutions to Enhance Your Online Presence!`}/>
  <ClientReviews/>
       <Faq />
     </>

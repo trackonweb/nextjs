@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import WebDevs from "../../../public/webdevs.png"
+import Ui from "../../../public/ui.png"
 
 
 const UiuxServices = () => {
@@ -29,7 +29,7 @@ const UiuxServices = () => {
             <div className=" hidden md:flex w-1/2">
                 <div className="">
                 <Image
-              src={WebDevs}
+              src={Ui}
             
               alt="Web Development "
               className="object-cover"

@@ -56,7 +56,7 @@ const Technologies = () => {
          className={`flex  flex-col gap-3 justify-center items-center  pt-10 xl:mx-20 lg:mx-10 mx-4`}
        >
          <h3 className="text-white text-center lg:text-[34px] text-[28px] font-[600] tracking-wide">
-         Explore Our Tech Stack
+         Explore Our Web Design Mastery
          </h3>
 
         

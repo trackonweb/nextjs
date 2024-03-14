@@ -120,7 +120,7 @@ const MainHeader = () => {
                         
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
-                            Ui & Ux
+                            UI & UX
                           </Link>
                         </div>
                       </div>
@@ -215,7 +215,7 @@ const MainHeader = () => {
                             href={`/explore-services/ui-ux`}
                             className=" block border-b border-gray-100 py-1 font-medium text-gray-500 hover:text-black md:mx-2"
                           >
-                            Ui & Ux
+                            UI & UX
                           </Link>
                         </div>
                       </div>

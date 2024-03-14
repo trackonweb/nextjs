@@ -6,32 +6,31 @@ import "slick-carousel/slick/slick-theme.css";
 import { FaStar, FaQuoteLeft } from "react-icons/fa6";
 
 const Learners = [
-  {
-    id: 1,
-    title: "Rohit Sharma",
-    description:
-      "Web development course offered a transformative experience. Structured curriculum, interactive projects, and dedicated instructors. It ignited my passion and equipped me with valuable skills. Highly recommended for aspiring developers",
-  },
-  {
-    id: 2,
-    title: "Mohit Gupta",
-    description:
-      "Exceptional web development course! Comprehensive content, hands-on projects, and excellent support. It exceeded my expectations. Highly recommended for anyone serious about mastering web development skills.",
-  },
-  {
-    id: 3,
-    title: "Lovely Singh",
-    description:
-      "Informative web development course with a solid foundation. Pacing felt a bit rushed at times. More interactive sessions would enhance the learning experience. Still valuable for beginners.",
-  },
-  {
-    id: 4,
-    title: "Mukesh Kumar",
-    description:
-      "Enthralling web development journey! Engaging lectures, fun projects, and a vibrant community. The course provided a strong foundation and fostered a passion for web development. Highly recommended.",
-  },
+  
+    {
+      id: 1,
+      title: "Sarah Johnson",
+      description: "I'm impressed by TrackonWeb UI/UX services! Their designs have greatly enhanced our app's usability and aesthetics. They're responsive, professional, and deliver exceptional results. Highly recommended!"
+    },
+    {
+      id: 2,
+      title: "John Smith",
+      description: "TrackonWeb UI/UX expertise has been instrumental in improving our digital products. Their attention to detail and creative approach have resulted in interfaces that resonate with our international audience. Thank you!"
+    },
+    {
+      id: 3,
+      title: "Emma Brown",
+      description: "We're thrilled with TrackonWeb UI/UX services! Their designs have brought our website to life, enhancing user experience and engagement. Their team is dedicated, talented, and highly professional. Couldn't be happier!"
+    },
+    {
+      id: 4,
+      title: "David Wilson",
+      description: "TrackonWeb UI/UX solutions have exceeded our expectations! Their intuitive designs and user-friendly interfaces have significantly improved customer satisfaction and retention. They're truly a cut above the rest!"
+    }
+  ];
+  
  
-];
+
 
 const ClientReviews = () => {
   const settings = {
@@ -75,7 +74,7 @@ const ClientReviews = () => {
 
   return (
     <div className={`bg-[url('/istockphoto-1358014313-612x612.jpg')] bg-cover bg-center bg-fixed`}>
-       <div className='bg-[rgba(0,0,0,0.80)]  py-20 '>
+       <div className='bg-[rgba(0,0,0,0.48)]  py-20 '>
        <div className="container mx-auto">
         <div
           className={`flex flex-col justify-center items-center space-y-2  pb-16 mx-4`}

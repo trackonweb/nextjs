@@ -22,13 +22,13 @@ const Learners = [
     id: 3,
     title: "Lovely Singh",
     description:
-      "As a small business, we often felt lost in the crowd. But TrackonWeb's graphic design solutions made us feel like a big fish in a small pond! They created impactful designs that helped us punch above our weight class and really stand out.",
+      "As a small business, we often felt lost in the crowd. But TrackonWeb graphic design solutions made us feel like a big fish in a small pond! They created impactful designs that helped us punch above our weight class and really stand out.",
   },
   {
     id: 4,
     title: "Mukesh Kumar",
     description:
-      "TrackonWeb's advertising designs are like sonic booms in the crowded marketplace. They grab attention, cut through all the noise, and leave a lasting impression on viewers. They're incredible!",
+      "TrackonWeb advertising designs are like sonic booms in the crowded marketplace. They grab attention, cut through all the noise, and leave a lasting impression on viewers. They're incredible!",
   },
  
 ];
@@ -75,7 +75,7 @@ const ClientReviews = () => {
 
   return (
     <div className={`bg-[url('/istockphoto-1358014313-612x612.jpg')] bg-cover bg-center bg-fixed`}>
-       <div className='bg-[rgba(0,0,0,0.80)]  py-20 '>
+       <div className='bg-[rgba(0,0,0,0.48)]  py-20 '>
        <div className="container mx-auto">
         <div
           className={`flex flex-col justify-center items-center space-y-2  pb-16 mx-4`}
